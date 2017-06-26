@@ -1,13 +1,145 @@
 <!DOCTYPE html>
-	<html>
-	<head>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="DonateMe.css">
+</head>
+<body>
+	<ul>
+		<li><a href="">Home</a></li>
+		<li><a href="">Gallery</a></li>
+		<li><a href="index.html">Donate</a></li>
+		
+	</ul>
 
-			<title>All Dogs are Cool</title>
+	
+	
+	<div class="column1">
 
-	</head>
-	<body>
+		<div class="column1width">
 
-	<p>1234567890</p>
+			<h1>Your Gift</h1>
 
-	</body>
+			<div class="giftBoxSelected">
+
+				<h2>$25</h2>
+
+			</div>
+			<div class="giftBox">
+
+				<h2>$50</h2>
+
+			</div>
+			<div class="giftBox">
+
+				<h2>$75</h2>
+
+			</div>
+			<div class="giftBox">
+
+				<h2>$100</h2>
+
+			</div>
+
+			<div class="giftBox">
+
+				<h2>$125</h2>
+
+			</div>
+			<div class="giftBox">
+
+				<h2>$150</h2>
+
+			</div>
+		</div>
+
+
+		<div class="formBox">
+			<form action="/action_page.php">
+				<legend>Credit Card Information:</legend>
+				<fieldset class="creditSection1">
+					<label>
+						First name:
+					</label>
+					<input type="text" name="firstname" value="Mickey">
+				</fieldset>
+
+				<fieldset class="creditSection2">
+					<label>
+						Last name:
+					</label>
+					<input type="text" name="lastname" value="Mouse">
+				</fieldset>	
+				<br>
+				<br>
+				<fieldset class="creditSection1">
+					<label>
+						Address Line 1:
+						<input type="text" name="Address1" value="Mickey">
+					</label>
+				</fieldset>
+
+				<fieldset class="creditSection2">
+					<label>
+						Address Line 2:
+						<input type="text" name="Address2" value="Mickey">
+					</label>
+				</fieldset>
+				<br>
+				<br>
+				<fieldset class="creditSection1">
+					<label>
+						City:
+						<input type="text" name="city" value="Mickey">
+					</label>
+				</fieldset>
+				<fieldset class="creditSection2">
+					<label>
+						Zip Code:
+						<input type="number" name="Zip" value="Mickey">
+					</label>
+				</fieldset>
+				<br>
+				<br>
+				<fieldset class="creditSection1">
+					<label>
+
+						<input type="submit" value="Submit">
+					</label>
+				</fieldset>
+			</form>
+
+			<form>
+				<label></label>
+
+			</form>
+
+		</div>
+
+
+
+	</div>	
+	<div class="column2">
+
+		<div class="progressbarTitle"> <h4>Goal Meter</h4></div>
+		<div id="progressbar">
+			<div></div>
+		</div>
+
+		<div class="topDonorTitle"> <h4>Top Donors</h4></div>
+
+
+		<div class="imageContainer1"></div>
+		<div class="donorInfo"> <a href="https://en.wikipedia.org/wiki/Giant_panda">#1 Happy Panda donated $125</a></div>
+		<div class="imageContainer2"></div>
+		<div class="donorInfo"> <a href="https://en.wikipedia.org/wiki/Giant_panda">#2 Cute Pug donated $75</a></div>
+		<div class="imageContainer3"></div>
+		<div class="donorInfo"> <a href="https://en.wikipedia.org/wiki/Giant_panda">#3 Nerdy Baby Elephant donated $50</a></div>
+
+
+	</div>
+
+
+
+</body>
 </html>
+
