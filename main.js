@@ -1,4 +1,4 @@
-$ (document).ready(function(){
+/*$ (document).ready(function(){
 
 	$(".giftBox").click(function(){
 
@@ -6,7 +6,27 @@ $ (document).ready(function(){
 
 	})
 
+}) */
 
-}
+$(document).ready(function(){
+	$('.carousel').slick({
+		autoplay:true, 
+		adaptiveHeight:true
 
-)
+	});
+});
+
+
+
+$(document).ready(function(){
+$(".giftBox").click(function(){
+$(".giftBoxSelected").removeClass("giftBoxSelected");
+	$(this).addClass("giftBoxSelected");
+})
+
+
+})
+
+
+	
+

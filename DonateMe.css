@@ -1,5 +1,5 @@
 .column1{
-	height:1000px;
+	height:1250px;
 	width:75%;
 	background-color: silver;
 	border: 1px solid black;
@@ -13,7 +13,7 @@
 
 .column2{
 
-	height:1000px;
+	height:1250px;
 	width:24%;
 	background-color:silver;
 	border: 1px solid black;
@@ -109,6 +109,7 @@ height:80px;
 .giftBoxSelected h2{
 
 	text-align: center;
+	background-color: "yellow";
 }
 
 .formBox{
@@ -198,9 +199,57 @@ height:300px;
 margin-left: 40px;
 color:red;
 
-
-
 }
 
+.box21{
+	text-align:center;
+	width:80%;
+	margin-top: 120px;
+	margin-left:80px;
+	clear: both;
+	display: block;
+	padding-top: 20px;
+}
+.container22{
+	width:80%;
+	margin-top: 50px;
+	margin-left:80px;
+	clear: all;
+	float: left;
+	display: block;
+}
+
+.slide1{
+					float:left;
+					
+				height: 600px;
+					width:600px;
+					background-image: url("http://d30nr4b2k915ua.cloudfront.net/wp-content/uploads/2014/09/01215940/dog-burning-man-5.jpg");
+					background-size:cover;
+					
+
+				}
+
+.slide2{
+					float:left;
+					
+				height: 600px;
+					width:600px;
+					background-image: url("http://d30nr4b2k915ua.cloudfront.net/wp-content/uploads/2015/06/01150350/dog-burning-man-4.jpg");
+					background-size:cover;
+					
+
+				}
+
+				.slide3{
+					float:left;
+					
+				height: 600px;
+					width:600px;
+					background-image: url("http://www.dogster.com/wp-content/uploads/2015/05/20130830-burning-man-dog-career.jpg");
+					background-size:cover;
+					
+
+				}
 
 
